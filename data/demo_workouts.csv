@@ -1,0 +1,301 @@
+workout_id,date,activity,age,gender,height_cm,weight_kg,duration_min,heart_rate_bpm,body_temp_c,calories_estimated,intensity
+D0001,2026-10-14,House cleaning moderate,58,female,151.1,62.3,24.5,135.2,39.6,66.7,High
+D0002,2026-08-15,Basketball shooting,20,female,154.2,60.1,49.1,122.1,39.8,118.0,Moderate
+D0003,2026-09-04,Walking treadmill 4.0–4.4 mph,55,male,186.4,48.3,62.4,132.4,38.4,116.7,High
+D0004,2026-09-03,Step aerobics high step,23,male,154.4,92.1,49.2,140.5,39.8,179.3,High
+D0005,2026-09-03,Walking 2.8–3.4 mph moderate,53,male,187.3,80.2,66.0,123.3,39.7,220.9,Moderate
+D0006,2026-10-21,Basketball game,32,female,167.1,71.6,64.2,92.2,38.5,133.2,Low
+D0007,2026-10-11,Basketball shooting,22,female,174.0,60.7,40.0,100.2,40.5,82.5,Moderate
+D0008,2026-09-07,Aerobic dance high impact,21,female,187.0,89.9,36.1,85.0,40.5,105.3,Low
+D0009,2026-10-19,Aerobic dance low impact,59,male,167.8,95.6,39.8,99.9,38.1,128.2,Low
+D0010,2026-10-06,Sweeping fast/moderate,45,male,166.3,99.9,19.0,117.0,39.9,63.8,Moderate
+D0011,2026-10-04,Bicycling for transportation moderate,45,female,167.3,79.0,40.4,98.9,39.2,90.0,Low
+D0012,2026-09-17,Boxing punching bag fast,52,male,184.6,65.7,29.1,91.9,37.2,66.1,Low
+D0013,2026-10-01,Bowling,29,female,189.2,63.5,51.5,125.7,37.8,118.9,High
+D0014,2026-10-03,Running 5.0–5.2 mph,56,male,172.0,53.8,33.6,153.9,40.1,75.7,Very High
+D0015,2026-09-17,Bicycling for transportation moderate,23,male,186.7,98.9,44.6,89.4,39.6,136.0,Low
+D0016,2026-10-12,Bicycling moderate pace,56,male,193.4,96.3,59.1,131.7,39.8,275.5,High
+D0017,2026-10-21,Running 4.3–4.8 mph,46,male,155.4,59.7,32.0,124.1,38.0,65.2,Moderate
+D0018,2026-08-24,Spin bike class,21,female,153.0,49.6,31.5,118.6,38.2,55.0,Moderate
+D0019,2026-09-28,Bicycling <10 mph leisure,54,male,160.9,72.6,36.5,87.1,39.6,77.0,Low
+D0020,2026-09-06,Step aerobics high step,21,female,152.7,85.9,62.0,88.2,37.9,157.6,Low
+D0021,2026-10-27,Walking 3.5–3.9 mph brisk,35,male,161.2,96.0,38.8,144.6,39.2,178.1,High
+D0022,2026-08-13,Bicycling moderate pace,18,female,191.7,92.1,20.8,116.4,38.0,81.3,Moderate
+D0023,2026-10-16,Canoeing moderate,18,male,161.9,88.8,39.6,111.7,40.6,130.8,Moderate
+D0024,2026-09-17,Walking 3.5–3.9 mph brisk,27,female,163.4,98.4,47.6,120.7,39.9,158.4,Moderate
+D0025,2026-08-19,Sweeping fast/moderate,51,female,152.6,74.4,65.3,85.1,37.4,130.6,Low
+D0026,2026-09-08,Running 4.0–4.2 mph,33,female,177.9,69.8,47.9,119.2,40.6,135.9,Moderate
+D0027,2026-10-04,Walking 2.0–2.4 mph,34,male,155.9,81.6,39.7,149.7,40.6,150.8,Very High
+D0028,2026-10-23,Running 6.7 mph,22,female,172.8,54.9,32.7,85.2,38.1,47.1,Low
+D0029,2026-08-24,Running 5.5–5.8 mph,37,female,180.1,76.8,70.6,87.8,40.4,143.6,Low
+D0030,2026-09-28,Running 5.5–5.8 mph,53,female,162.3,79.5,56.6,95.3,39.5,144.3,Low
+D0031,2026-10-15,Walking for transportation,21,female,178.5,91.1,12.9,105.0,37.7,40,Moderate
+D0032,2026-10-18,Walking 2.8–3.4 mph moderate,53,male,175.2,53.8,71.4,131.8,37.7,178.2,High
+D0033,2026-10-08,House cleaning moderate,27,male,155.7,64.0,68.4,139.7,40.3,185.9,High
+D0034,2026-08-26,Playing with children vigorous,60,female,165.9,77.1,66.9,153.0,39.9,279.8,Very High
+D0035,2026-08-09,Sweeping fast/moderate,29,male,151.1,86.3,31.6,149.8,40.1,137.7,Very High
+D0036,2026-08-08,Bicycling <10 mph leisure,28,female,167.2,50.0,40.6,95.0,40.5,61.1,Low
+D0037,2026-10-11,Aerobic general,19,female,167.9,62.5,14.5,138.0,38.5,40,High
+D0038,2026-10-26,Calisthenics vigorous,19,female,189.5,61.6,47.7,153.8,37.3,139.1,Very High
+D0039,2026-10-26,Boxing punching bag,38,male,177.3,74.6,35.0,123.2,38.1,101.9,Moderate
+D0040,2026-09-17,Sweeping slow/light,52,female,166.4,51.6,53.2,104.8,38.3,84.4,Moderate
+D0041,2026-08-20,Bicycling easy pace,37,male,164.7,84.3,46.0,94.4,39.6,129.8,Low
+D0042,2026-09-15,Calisthenics vigorous,54,male,168.3,91.4,29.8,95.8,40.0,91.7,Low
+D0043,2026-10-20,Running 6.7 mph,46,female,173.0,89.3,72.4,135.2,39.6,280.0,High
+D0044,2026-09-20,Walking 2.5 mph level,39,female,186.8,87.1,53.7,96.8,37.9,131.1,Low
+D0045,2026-10-01,Running 5.0–5.2 mph,22,male,168.6,80.7,22.6,132.2,39.0,69.0,High
+D0046,2026-09-05,Playing with children moderate,24,male,159.8,89.8,55.2,114.8,39.2,205.0,Moderate
+D0047,2026-09-06,Kayaking competition,47,male,192.8,94.4,49.8,133.9,39.0,225.5,High
+D0048,2026-09-03,Badminton social,48,male,161.7,60.9,51.4,137.4,39.1,126.2,High
+D0049,2026-08-03,Basketball shooting,36,female,162.2,64.6,45.1,90.4,38.0,80.0,Low
+D0050,2026-10-01,Canoeing light,44,male,164.9,72.2,14.0,142.5,38.6,46.8,High
+D0051,2026-10-24,Kayaking competition,54,male,171.5,97.0,29.4,109.2,40.4,99.9,Moderate
+D0052,2026-08-27,Canoeing competition,52,female,172.0,62.2,41.6,109.2,39.6,90.2,Moderate
+D0053,2026-08-28,Walking 4.5–4.9 mph very very brisk,47,female,194.1,75.8,69.0,124.4,39.6,218.8,Moderate
+D0054,2026-09-09,Bicycling easy pace,47,female,152.3,67.7,23.8,104.5,39.9,52.0,Moderate
+D0055,2026-08-25,Canoeing light,23,male,150.9,76.0,75.0,106.2,39.5,227.2,Moderate
+D0056,2026-09-23,Aerobic dance high impact,19,female,159.0,49.1,19.9,89.5,39.6,40,Low
+D0057,2026-10-01,Bicycling for transportation high,34,male,157.6,79.6,58.6,88.6,40.1,132.7,Low
+D0058,2026-09-28,Walking treadmill 2.5–2.9 mph,37,male,167.8,85.2,14.9,131.8,39.5,56.7,High
+D0059,2026-09-01,Walking 4.0–4.4 mph very brisk,56,female,185.8,77.4,12.7,120.0,39.6,40,Moderate
+D0060,2026-10-21,Bicycling 10–11.9 mph,44,male,154.7,98.0,51.3,142.2,39.7,204.5,High
+D0061,2026-09-08,Playing with children vigorous,35,male,170.9,90.9,48.5,104.2,38.1,133.2,Moderate
+D0062,2026-10-23,Running 5.5–5.8 mph,47,male,165.1,73.7,31.1,116.6,38.5,82.8,Moderate
+D0063,2026-10-23,Running 5.0–5.2 mph,35,female,173.2,57.9,25.7,110.5,39.2,57.0,Moderate
+D0064,2026-10-17,Calisthenics moderate,49,male,185.7,52.8,24.4,131.9,38.3,52.2,High
+D0065,2026-08-11,Running 4.3–4.8 mph,40,male,194.8,76.6,32.9,114.0,38.3,83.1,Moderate
+D0066,2026-08-27,Calisthenics vigorous,25,female,158.6,86.4,28.0,124.2,39.9,90.6,Moderate
+D0067,2026-09-23,Walking for transportation,30,male,160.2,57.3,10.9,120.1,38.2,40,Moderate
+D0068,2026-09-04,Bicycling for transportation high,26,male,154.6,48.6,28.5,115.9,38.4,45.3,Moderate
+D0069,2026-08-04,Bicycling for transportation moderate,22,male,172.1,78.0,54.6,91.4,40.1,124.0,Low
+D0070,2026-10-14,Bicycling 12–13.9 mph,53,male,177.3,89.1,24.7,119.2,38.8,79.9,Moderate
+D0071,2026-08-06,Basketball game,37,female,177.4,86.5,71.6,95.6,38.0,173.9,Low
+D0072,2026-10-28,Running 6.7 mph,53,female,157.0,69.2,54.8,115.2,37.3,151.3,Moderate
+D0073,2026-08-18,Playing with children vigorous,47,female,180.9,96.0,61.2,126.9,39.6,218.0,High
+D0074,2026-09-15,Boxing sparring,32,female,190.9,91.0,14.6,92.4,38.3,45.5,Low
+D0075,2026-09-24,Walking 4.5–4.9 mph very very brisk,25,male,181.0,84.4,71.3,117.5,39.0,236.6,Moderate
+D0076,2026-10-27,Walking 2.5 mph level,38,male,151.2,59.9,53.8,144.5,39.3,169.3,High
+D0077,2026-09-03,Calisthenics moderate,35,female,184.3,57.1,43.7,113.2,38.2,90.5,Moderate
+D0078,2026-09-27,Spin bike class,48,male,168.4,64.7,16.8,92.1,38.7,40,Low
+D0079,2026-08-22,Aerobic general,53,female,170.5,64.4,31.0,152.8,38.7,105.2,Very High
+D0080,2026-09-18,Bowling,52,male,168.6,57.8,33.5,136.7,39.5,72.9,High
+D0081,2026-09-18,Running 5.0–5.2 mph,26,male,169.7,84.3,17.9,153.0,39.4,77.1,Very High
+D0082,2026-10-10,Kayaking competition,18,male,154.2,99.6,69.3,114.6,37.6,231.3,Moderate
+D0083,2026-10-24,Jogging general,50,male,168.7,73.1,40.7,114.3,37.7,125.0,Moderate
+D0084,2026-10-10,Kayaking moderate,26,female,162.4,89.1,37.0,150.1,39.0,132.5,Very High
+D0085,2026-09-28,Bicycling easy pace,55,male,188.9,71.2,41.5,104.9,39.9,101.1,Moderate
+D0086,2026-09-13,Boxing punching bag,30,female,175.7,60.1,60.4,83.3,39.9,117.1,Low
+D0087,2026-08-17,Sweeping fast/moderate,60,female,172.3,49.9,42.6,124.3,40.3,94.0,Moderate
+D0088,2026-10-23,Walking for transportation,47,female,182.5,69.3,52.6,91.6,38.9,105.0,Low
+D0089,2026-09-28,Boxing punching bag,43,female,188.3,92.3,65.9,108.5,38.3,242.3,Moderate
+D0090,2026-08-25,Walking 4.5–4.9 mph very very brisk,52,female,177.8,60.2,54.5,101.6,38.0,108.6,Moderate
+D0091,2026-09-05,Running 6.7 mph,58,female,170.0,84.1,68.7,83.4,40.1,158.9,Low
+D0092,2026-09-19,Plank / light core work,33,male,175.5,89.2,21.0,85.9,40.3,58.1,Low
+D0093,2026-10-06,House cleaning moderate,27,female,170.8,61.2,26.6,80.7,40.1,42.6,Low
+D0094,2026-08-13,Bicycling 14–15.9 mph,22,male,192.5,99.4,29.4,152.2,39.7,154.3,Very High
+D0095,2026-09-09,Walking for transportation,48,female,160.7,77.7,47.4,154.5,38.3,196.2,Very High
+D0096,2026-09-08,Running 4.3–4.8 mph,18,female,191.0,86.7,64.1,147.7,40.0,267.2,Very High
+D0097,2026-10-21,Badminton social,58,female,177.9,83.2,56.9,129.4,40.2,172.7,High
+D0098,2026-08-07,Running 8 mph,20,male,185.5,49.7,33.7,89.9,40.5,54.9,Low
+D0099,2026-09-24,Stationary bike general,26,male,173.9,95.5,64.0,99.3,40.2,230.9,Low
+D0100,2026-10-12,Basketball general,39,female,171.1,51.9,59.0,96.9,39.6,113.7,Low
+D0101,2026-10-12,Calisthenics moderate,23,male,150.6,75.9,39.6,130.5,39.6,121.2,High
+D0102,2026-09-23,Badminton competitive,24,female,171.2,80.2,71.3,104.6,39.4,172.0,Moderate
+D0103,2026-08-13,Running 5.0–5.2 mph,37,male,155.3,50.4,12.4,154.7,37.6,40,Very High
+D0104,2026-10-04,Walking treadmill 4.0–4.4 mph,47,male,180.2,86.6,71.5,111.4,39.9,252.1,Moderate
+D0105,2026-08-22,Running 5.0–5.2 mph,49,male,192.3,62.5,54.9,96.3,38.8,122.7,Low
+D0106,2026-10-21,Walking 4.5–4.9 mph very very brisk,41,male,152.7,62.3,72.9,151.2,40.2,226.5,Very High
+D0107,2026-08-19,Kayaking competition,56,female,152.3,65.3,74.3,139.0,37.9,231.3,High
+D0108,2026-10-09,Walking treadmill 4.0–4.4 mph,31,female,164.8,55.7,68.5,80.2,40.3,121.7,Low
+D0109,2026-09-02,Running 8 mph,29,female,179.7,49.3,11.0,139.2,38.1,40,High
+D0110,2026-08-20,Walking treadmill 2.5–2.9 mph,26,male,173.7,86.8,41.0,138.4,39.0,154.3,High
+D0111,2026-10-15,Basketball general,20,male,170.6,98.1,14.0,115.9,38.6,45.7,Moderate
+D0112,2026-10-17,Boxing punching bag,22,female,164.5,55.7,18.2,126.8,39.3,40,High
+D0113,2026-10-28,Mopping moderate,36,male,172.7,70.4,61.6,88.6,39.6,141.4,Low
+D0114,2026-09-22,Walking treadmill 2.5–2.9 mph,31,male,170.3,59.9,32.0,114.0,38.7,67.3,Moderate
+D0115,2026-10-12,Bicycling 10–11.9 mph,34,male,192.9,83.7,40.8,86.8,37.5,89.0,Low
+D0116,2026-09-28,Basketball game,26,female,176.4,77.2,31.4,89.2,38.5,83.3,Low
+D0117,2026-09-28,Running 4.3–4.8 mph,21,male,177.0,66.3,47.6,96.0,39.6,112.3,Low
+D0118,2026-10-22,Canoeing light,53,male,155.2,62.5,24.7,112.2,39.2,62.1,Moderate
+D0119,2026-09-12,Bowling,59,female,177.4,82.2,55.1,82.2,38.2,121.2,Low
+D0120,2026-10-07,Walking 2.5 mph level,18,female,189.1,77.4,36.1,90.6,39.5,75.3,Low
+D0121,2026-08-05,Calisthenics vigorous,42,male,170.4,56.2,30.3,104.3,40.6,51.5,Moderate
+D0122,2026-10-04,Running 6.0–6.3 mph,28,female,180.3,62.1,53.0,116.4,38.8,114.1,Moderate
+D0123,2026-10-02,Running 4.3–4.8 mph,40,male,155.0,83.3,48.6,119.5,38.3,151.9,Moderate
+D0124,2026-09-06,Walking 2.0–2.4 mph,18,female,163.6,59.0,18.9,99.2,38.4,40,Low
+D0125,2026-08-14,Bicycling moderate pace,26,male,174.0,60.0,46.3,130.1,38.5,128.4,High
+D0126,2026-09-01,Bicycling vigorous pace,19,male,191.5,92.8,47.4,123.0,39.8,163.7,Moderate
+D0127,2026-09-19,Sweeping slow/light,38,female,186.1,80.1,64.1,149.0,37.5,212.5,Very High
+D0128,2026-10-17,Aerobic general,43,female,167.8,64.1,32.1,105.0,37.8,74.3,Moderate
+D0129,2026-10-05,Running 5.5–5.8 mph,30,male,165.8,97.8,52.0,91.1,37.6,142.7,Low
+D0130,2026-10-21,Bicycling 12–13.9 mph,59,female,158.0,88.2,42.1,136.6,39.9,170.3,High
+D0131,2026-10-02,Running 7 mph,58,male,188.9,80.6,19.8,85.1,38.8,50.7,Low
+D0132,2026-08-20,Sweeping fast/moderate,40,female,164.0,71.5,13.7,142.4,37.5,50.5,High
+D0133,2026-08-11,Canoeing competition,56,male,170.8,76.8,61.5,147.2,38.8,224.1,Very High
+D0134,2026-10-21,Walking for transportation,56,male,172.6,97.8,39.3,140.8,40.2,182.7,High
+D0135,2026-09-14,Bicycling general,29,female,161.1,70.8,38.6,119.2,37.8,118.9,Moderate
+D0136,2026-10-20,Running 6.7 mph,39,female,185.5,81.7,14.3,87.1,39.6,40,Low
+D0137,2026-10-23,Basketball game,27,male,153.7,82.5,69.6,103.3,39.6,190.3,Moderate
+D0138,2026-10-17,Bicycling for transportation moderate,23,male,175.2,81.5,31.4,89.6,39.7,83.5,Low
+D0139,2026-08-05,Canoeing light,23,male,172.9,48.9,30.1,151.3,38.4,69.7,Very High
+D0140,2026-09-25,Step aerobics low step,27,female,163.3,89.0,43.0,120.5,39.9,128.6,Moderate
+D0141,2026-09-02,House cleaning moderate,57,female,176.9,56.0,21.8,132.0,39.4,46.4,High
+D0142,2026-08-10,Bicycling 12–13.9 mph,44,male,180.4,60.4,38.9,101.4,39.9,72.9,Moderate
+D0143,2026-09-06,Bicycling easy pace,48,female,166.6,97.3,74.0,114.6,38.2,269.4,Moderate
+D0144,2026-08-10,Boxing punching bag,30,female,189.3,50.7,41.2,107.8,40.6,81.8,Moderate
+D0145,2026-09-01,Running 4.3–4.8 mph,23,female,162.3,95.1,19.6,112.8,40.6,75.3,Moderate
+D0146,2026-10-21,Running 8 mph,44,female,167.8,67.4,35.1,86.1,38.0,78.7,Low
+D0147,2026-10-01,Boxing punching bag,39,female,156.2,62.9,63.9,132.2,37.7,168.4,High
+D0148,2026-08-10,Walking treadmill 3.0–3.4 mph,23,female,161.5,91.4,45.7,134.5,39.1,194.1,High
+D0149,2026-08-21,Spin bike class,25,female,160.7,81.2,50.5,84.7,40.2,122.7,Low
+D0150,2026-08-17,Stair climbing fast,50,female,182.3,63.1,10.1,106.5,39.3,40,Moderate
+D0151,2026-10-13,Sweeping fast/moderate,41,female,192.9,76.3,61.1,118.1,37.3,177.2,Moderate
+D0152,2026-10-25,Walking treadmill 2.5–2.9 mph,41,male,183.6,66.6,14.4,98.1,39.6,40,Low
+D0153,2026-09-21,Bicycling 14–15.9 mph,39,female,152.0,76.4,62.9,93.1,40.0,172.8,Low
+D0154,2026-09-10,Jogging general,29,female,152.8,88.4,39.7,102.0,37.4,132.7,Moderate
+D0155,2026-08-28,Bicycling <10 mph leisure,50,male,194.5,76.2,26.5,136.5,37.9,97.3,High
+D0156,2026-08-16,Bicycling for transportation high,59,male,162.3,89.6,38.4,110.0,38.8,120.0,Moderate
+D0157,2026-08-18,Calisthenics vigorous,49,male,191.6,75.0,62.1,134.5,37.5,229.6,High
+D0158,2026-09-15,Stair climbing slow,36,male,154.6,65.1,29.2,113.4,39.8,74.4,Moderate
+D0159,2026-09-17,Basketball game,20,male,177.7,70.6,51.6,139.4,37.4,168.0,High
+D0160,2026-09-13,Canoeing light,28,female,156.4,79.6,60.8,82.6,37.4,143.9,Low
+D0161,2026-09-13,Aerobic dance high impact,54,female,177.2,83.3,71.7,107.9,39.9,189.1,Moderate
+D0162,2026-09-23,Aerobic dance low impact,38,male,161.2,53.9,57.8,117.4,38.6,105.3,Moderate
+D0163,2026-08-23,Sweeping slow/light,46,female,194.8,62.8,69.6,116.8,37.6,144.9,Moderate
+D0164,2026-09-28,Aerobic dance low impact,46,female,186.5,98.3,74.1,130.1,39.8,307.5,High
+D0165,2026-09-18,Canoeing moderate,28,female,185.7,74.5,17.9,95.1,37.7,42.6,Low
+D0166,2026-10-16,Bicycling moderate pace,54,male,171.0,99.1,18.4,146.3,37.4,96.9,Very High
+D0167,2026-10-12,Bicycling 12–13.9 mph,51,male,184.6,90.8,14.8,152.9,39.5,63.9,Very High
+D0168,2026-08-06,Step aerobics low step,26,female,184.6,54.7,42.7,145.1,40.2,96.0,Very High
+D0169,2026-09-05,Badminton social,38,female,165.6,96.9,68.2,143.4,38.1,341.0,High
+D0170,2026-10-20,Stair climbing slow,58,male,177.6,52.9,51.7,124.4,39.3,114.9,Moderate
+D0171,2026-10-14,Badminton competitive,39,female,187.1,49.5,13.0,128.1,39.3,40,High
+D0172,2026-09-10,Canoeing competition,57,female,172.4,80.6,28.8,151.7,38.9,120.9,Very High
+D0173,2026-10-11,Walking treadmill 4.0–4.4 mph,47,female,181.0,56.2,37.0,114.8,38.4,73.5,Moderate
+D0174,2026-08-04,Running 6.0–6.3 mph,40,male,155.9,67.3,46.5,103.9,38.9,106.1,Moderate
+D0175,2026-10-24,Kayaking moderate,21,male,192.5,92.9,37.2,152.2,40.4,156.7,Very High
+D0176,2026-09-17,Walking 2.5 mph level,38,female,184.3,73.9,43.5,117.4,38.3,107.6,Moderate
+D0177,2026-09-18,Badminton competitive,47,female,159.7,66.4,13.3,117.1,40.4,40,Moderate
+D0178,2026-10-07,Bicycling moderate pace,18,female,169.4,93.9,57.3,137.3,38.5,203.4,High
+D0179,2026-08-04,Basketball general,41,male,153.3,74.2,59.7,101.0,40.8,153.8,Moderate
+D0180,2026-08-02,Aerobic general,43,male,185.8,65.6,71.0,136.6,37.9,196.6,High
+D0181,2026-10-11,Walking treadmill 3.5–3.9 mph,20,female,182.1,89.8,43.8,91.2,40.4,115.2,Low
+D0182,2026-10-10,Step aerobics high step,28,male,194.6,86.4,29.5,105.2,40.2,88.4,Moderate
+D0183,2026-10-01,Boxing punching bag fast,48,female,166.6,83.0,73.7,123.8,40.1,271.6,Moderate
+D0184,2026-08-17,Walking 3.5–3.9 mph brisk,56,male,161.9,82.1,73.2,123.4,38.0,245.4,Moderate
+D0185,2026-09-05,Walking 2.5 mph level,58,male,156.6,83.4,12.1,151.1,37.6,47.1,Very High
+D0186,2026-10-07,Walking 3.5–3.9 mph brisk,44,female,168.5,88.3,69.8,145.5,39.8,300.8,Very High
+D0187,2026-09-22,Step aerobics high step,53,male,194.9,72.9,34.5,151.8,38.9,114.3,Very High
+D0188,2026-09-23,Walking for transportation,59,male,177.5,58.0,26.0,121.9,38.0,68.0,Moderate
+D0189,2026-10-13,Walking treadmill 3.0–3.4 mph,31,male,164.3,66.1,70.7,139.7,38.2,211.9,High
+D0190,2026-10-09,Bicycling <10 mph leisure,43,male,193.0,89.8,28.9,101.6,39.8,98.8,Moderate
+D0191,2026-08-08,Plank / light core work,48,female,159.1,76.0,70.6,132.2,37.7,243.2,High
+D0192,2026-10-06,Canoeing light,21,female,178.7,50.7,36.9,133.8,37.6,71.2,High
+D0193,2026-10-19,Playing with children moderate,44,male,171.5,58.4,72.7,104.1,39.5,158.2,Moderate
+D0194,2026-09-06,Kayaking competition,32,female,191.1,57.1,67.3,93.2,40.5,117.1,Low
+D0195,2026-09-05,Badminton competitive,36,female,150.4,77.5,17.0,153.7,38.2,64.4,Very High
+D0196,2026-10-11,Boxing punching bag,50,male,162.3,90.1,31.5,134.8,39.5,110.6,High
+D0197,2026-08-06,Walking 4.5–4.9 mph very very brisk,36,female,157.9,92.5,68.3,142.0,39.1,275.8,High
+D0198,2026-10-24,Bicycling for transportation high,26,male,164.6,60.9,27.0,97.7,39.9,51.0,Low
+D0199,2026-10-23,Stair climbing slow,54,female,161.8,66.7,25.4,130.1,38.9,68.6,High
+D0200,2026-10-20,Stationary bike general,37,female,178.7,96.9,33.9,96.6,40.6,95.3,Low
+D0201,2026-10-28,Bowling,41,male,181.6,95.5,59.2,140.1,40.2,232.4,High
+D0202,2026-10-18,House cleaning moderate,23,male,173.8,66.8,69.6,88.4,40.2,140.2,Low
+D0203,2026-09-26,Walking 4.5–4.9 mph very very brisk,27,female,164.8,75.1,17.6,95.4,39.3,47.4,Low
+D0204,2026-09-09,Running 7 mph,21,male,155.9,69.6,46.7,121.9,39.6,136.7,Moderate
+D0205,2026-09-02,Playing with children vigorous,18,female,176.0,50.4,32.4,84.8,40.8,53.2,Low
+D0206,2026-09-15,Bicycling general,36,male,158.1,55.0,51.7,134.7,40.7,140.3,High
+D0207,2026-10-13,Walking treadmill 3.0–3.4 mph,42,male,153.6,98.1,66.8,90.0,40.3,180.9,Low
+D0208,2026-09-18,Basketball general,51,female,182.8,59.6,10.2,81.7,38.3,40,Low
+D0209,2026-10-14,Walking treadmill 3.0–3.4 mph,42,female,161.1,66.0,27.9,150.3,39.8,74.9,Very High
+D0210,2026-10-02,Sweeping fast/moderate,57,female,160.8,51.5,48.6,113.5,39.6,80.2,Moderate
+D0211,2026-10-19,Running 6.7 mph,43,male,160.5,59.3,66.1,84.2,39.0,104.4,Low
+D0212,2026-10-24,Running 6.0–6.3 mph,38,male,160.7,93.6,74.1,119.1,38.7,232.7,Moderate
+D0213,2026-09-14,Step aerobics low step,29,male,175.0,50.4,32.4,128.2,38.6,63.6,High
+D0214,2026-09-02,Boxing punching bag,27,male,166.9,87.2,40.8,143.7,38.3,144.5,High
+D0215,2026-09-28,Badminton competitive,53,male,193.6,77.0,18.7,98.2,37.9,41.3,Low
+D0216,2026-08-26,Walking 2.8–3.4 mph moderate,41,female,174.1,91.1,13.3,108.3,39.4,48.0,Moderate
+D0217,2026-10-04,Playing with children vigorous,55,female,171.6,93.2,31.6,151.8,37.3,127.5,Very High
+D0218,2026-10-21,Running 6.7 mph,48,female,181.3,84.6,35.8,97.9,38.4,95.6,Low
+D0219,2026-09-07,Stationary bike general,40,male,161.8,74.7,42.3,87.4,40.7,101.7,Low
+D0220,2026-10-14,Playing with children vigorous,41,male,168.6,77.3,24.4,90.9,38.1,59.6,Low
+D0221,2026-09-25,Bicycling for transportation moderate,36,female,158.8,60.0,47.0,98.4,39.2,97.9,Low
+D0222,2026-10-21,Stair climbing fast,49,male,170.7,86.1,32.9,90.5,39.2,97.8,Low
+D0223,2026-08-03,Walking treadmill 3.5–3.9 mph,21,female,187.8,51.9,63.2,83.6,37.2,104.1,Low
+D0224,2026-09-01,Playing with children moderate,27,female,159.8,71.7,13.9,127.8,40.6,40.7,High
+D0225,2026-09-26,Kayaking moderate,18,male,150.5,75.5,27.9,153.3,37.3,107.4,Very High
+D0226,2026-09-03,Bicycling <10 mph leisure,29,female,191.3,75.3,25.7,126.5,38.1,73.3,High
+D0227,2026-10-25,Walking 4.5–4.9 mph very very brisk,41,male,170.7,60.6,55.3,102.5,40.2,119.3,Moderate
+D0228,2026-09-21,Walking 4.5–4.9 mph very very brisk,20,female,168.2,67.6,40.9,127.8,39.7,113.5,High
+D0229,2026-08-03,Aerobic dance high impact,39,female,190.3,95.8,24.9,147.6,39.7,110.2,Very High
+D0230,2026-09-03,Kayaking moderate,35,female,158.1,92.2,11.0,95.5,37.7,40,Low
+D0231,2026-08-26,Bicycling easy pace,37,female,175.4,77.5,65.2,130.8,39.1,227.9,High
+D0232,2026-09-01,Bicycling for transportation high,23,male,152.4,70.7,64.5,105.5,40.0,163.5,Moderate
+D0233,2026-10-13,Stair climbing fast,58,male,185.3,71.4,24.8,121.5,38.6,73.4,Moderate
+D0234,2026-09-11,Badminton social,23,male,185.9,85.1,15.3,91.6,39.8,40,Low
+D0235,2026-09-18,Walking 4.5–4.9 mph very very brisk,41,female,154.1,97.0,38.9,137.1,37.6,149.2,High
+D0236,2026-09-14,Sweeping fast/moderate,53,male,154.6,52.7,46.0,124.8,40.0,94.1,Moderate
+D0237,2026-08-09,Basketball general,42,female,182.6,77.1,74.5,98.2,39.1,181.8,Low
+D0238,2026-08-24,Walking 4.0–4.4 mph very brisk,37,male,172.2,51.3,38.3,111.6,38.9,68.8,Moderate
+D0239,2026-09-26,Running uphill,58,male,176.7,58.2,17.0,102.8,40.6,40,Moderate
+D0240,2026-10-07,Running 8 mph,39,male,165.1,90.4,65.9,153.1,37.7,295.3,Very High
+D0241,2026-08-11,Bicycling for transportation high,48,male,158.0,68.7,30.7,135.1,39.5,92.9,High
+D0242,2026-10-01,Step aerobics high step,42,male,186.7,68.4,17.4,122.3,39.3,42.5,Moderate
+D0243,2026-08-21,Bicycling vigorous pace,47,female,169.7,63.1,55.0,141.4,40.1,163.7,High
+D0244,2026-09-18,Calisthenics vigorous,37,female,161.4,56.0,37.5,108.3,38.8,74.4,Moderate
+D0245,2026-08-25,Badminton social,50,male,174.5,89.1,33.4,147.2,39.1,155.4,Very High
+D0246,2026-09-04,Bicycling for transportation high,33,male,157.5,79.9,46.6,128.4,39.5,165.1,High
+D0247,2026-09-25,Bicycling 12–13.9 mph,18,female,161.6,74.6,43.7,123.5,39.3,125.0,Moderate
+D0248,2026-10-05,Walking treadmill 3.0–3.4 mph,55,female,165.5,49.3,16.8,111.2,40.7,40,Moderate
+D0249,2026-09-03,Boxing punching bag fast,40,male,165.4,88.8,43.9,106.1,37.6,144.6,Moderate
+D0250,2026-10-08,Stair climbing slow,37,female,186.5,54.0,65.2,128.6,39.6,164.1,High
+D0251,2026-10-22,Badminton social,51,female,174.8,65.2,37.7,114.7,40.1,83.3,Moderate
+D0252,2026-09-25,Boxing punching bag,45,male,151.3,79.9,22.8,124.4,38.6,66.8,Moderate
+D0253,2026-10-21,Basketball game,22,female,186.0,75.9,33.8,94.8,37.6,90.7,Low
+D0254,2026-09-20,Kayaking moderate,38,male,177.5,78.5,32.6,143.4,39.4,122.2,High
+D0255,2026-09-20,Walking treadmill 4.0–4.4 mph,55,female,180.2,64.3,25.5,88.8,38.5,49.7,Low
+D0256,2026-09-10,Stair climbing fast,26,male,169.0,73.3,44.9,148.9,40.6,157.0,Very High
+D0257,2026-09-18,Walking treadmill 3.5–3.9 mph,26,female,164.2,71.5,13.5,106.9,37.2,40,Moderate
+D0258,2026-08-10,Aerobic dance high impact,50,male,168.4,73.6,56.2,113.3,37.8,131.6,Moderate
+D0259,2026-08-19,Spin bike class,20,male,160.1,63.0,60.7,122.4,40.0,153.5,Moderate
+D0260,2026-08-14,Boxing punching bag fast,25,male,184.9,90.8,33.8,141.7,37.3,135.4,High
+D0261,2026-08-25,Bicycling 12–13.9 mph,24,female,163.4,100.0,39.2,106.1,40.1,152.4,Moderate
+D0262,2026-08-27,Stair climbing slow,33,female,186.5,78.6,32.8,133.3,39.5,113.6,High
+D0263,2026-09-28,Running 6.7 mph,31,female,175.7,75.7,48.8,92.6,40.7,108.2,Low
+D0264,2026-08-08,Badminton competitive,50,female,156.1,87.0,36.8,84.4,38.2,82.5,Low
+D0265,2026-09-15,Running 6.0–6.3 mph,27,male,187.3,87.6,54.0,116.7,39.3,186.5,Moderate
+D0266,2026-08-28,Spin bike class,22,female,168.1,87.0,55.2,145.8,38.8,209.7,Very High
+D0267,2026-08-16,Bicycling for transportation high,23,male,178.6,84.3,65.3,139.7,38.6,239.0,High
+D0268,2026-08-02,Running uphill,35,male,187.3,65.6,47.6,122.5,38.9,138.2,Moderate
+D0269,2026-10-05,Bicycling 10–11.9 mph,24,male,150.7,96.3,20.3,114.2,40.8,66.4,Moderate
+D0270,2026-10-06,Bicycling general,59,male,157.2,96.5,27.8,129.1,38.1,116.6,High
+D0271,2026-09-03,Walking treadmill 2.5–2.9 mph,21,male,178.2,85.8,59.1,112.2,37.5,158.3,Moderate
+D0272,2026-08-16,Sweeping fast/moderate,26,female,173.4,71.1,10.5,105.8,37.6,40,Moderate
+D0273,2026-08-21,Walking treadmill 3.5–3.9 mph,22,female,167.2,86.0,16.7,103.5,40.4,47.5,Moderate
+D0274,2026-09-20,Badminton social,27,female,173.9,48.4,52.3,113.0,39.8,100.5,Moderate
+D0275,2026-08-08,Bicycling for transportation high,46,female,153.9,53.2,58.9,124.2,38.6,122.9,Moderate
+D0276,2026-10-10,Walking 2.5 mph level,35,female,161.2,79.3,56.9,101.4,40.6,168.0,Moderate
+D0277,2026-08-16,Spin bike class,31,female,183.7,63.4,13.5,147.3,40.6,40,Very High
+D0278,2026-09-12,Sweeping fast/moderate,58,female,173.8,98.8,74.1,150.0,37.7,380.9,Very High
+D0279,2026-08-26,Running 5.5–5.8 mph,52,female,184.3,97.6,60.1,81.3,37.4,151.0,Low
+D0280,2026-08-09,Step aerobics high step,43,male,178.3,74.1,37.0,132.6,37.5,117.5,High
+D0281,2026-10-22,Calisthenics moderate,23,male,153.6,95.9,73.3,91.7,38.4,226.9,Low
+D0282,2026-09-20,Playing with children vigorous,59,female,164.0,70.7,72.0,97.9,38.1,163.4,Low
+D0283,2026-09-12,Basketball shooting,56,female,163.9,86.6,58.1,89.0,39.7,130.0,Low
+D0284,2026-09-26,Canoeing light,51,male,157.5,54.6,60.8,100.2,40.4,124.1,Moderate
+D0285,2026-09-28,Aerobic general,45,male,173.6,61.7,73.4,127.1,39.0,177.3,High
+D0286,2026-08-02,Running 4.3–4.8 mph,54,female,166.5,61.3,16.7,123.0,39.8,43.6,Moderate
+D0287,2026-10-24,Walking 2.8–3.4 mph moderate,18,female,152.1,66.9,69.8,93.4,40.7,149.4,Low
+D0288,2026-10-22,Aerobic dance high impact,59,male,160.1,60.9,69.5,104.0,40.2,140.2,Moderate
+D0289,2026-09-11,Sweeping fast/moderate,21,female,160.0,74.8,13.0,110.1,40.4,40,Moderate
+D0290,2026-09-25,Bicycling 14–15.9 mph,23,male,150.4,58.4,46.6,102.8,39.4,89.2,Moderate
+D0291,2026-09-01,Basketball shooting,30,female,156.8,96.5,11.6,120.6,39.5,48.7,Moderate
+D0292,2026-08-23,Spin bike class,60,male,188.2,85.8,16.8,119.7,38.1,63.7,Moderate
+D0293,2026-08-19,Bicycling 14–15.9 mph,35,female,152.0,60.0,65.0,111.0,40.4,162.1,Moderate
+D0294,2026-09-28,Walking treadmill 3.5–3.9 mph,24,female,178.7,68.5,48.5,84.7,39.6,89.0,Low
+D0295,2026-10-04,Jogging general,38,male,181.5,86.2,30.7,100.4,37.5,78.8,Moderate
+D0296,2026-09-09,Running 4.0–4.2 mph,27,female,157.4,72.2,36.4,120.2,40.7,100.9,Moderate
+D0297,2026-08-03,Kayaking competition,25,female,157.1,83.7,63.7,132.3,37.3,249.7,High
+D0298,2026-09-18,Bicycling for transportation moderate,33,male,167.8,50.5,29.4,141.5,37.8,64.7,High
+D0299,2026-08-07,Canoeing light,53,female,154.3,53.3,61.6,89.1,37.4,113.9,Low
+D0300,2026-08-07,Walking 4.0–4.4 mph very brisk,43,male,180.9,96.8,15.5,124.0,40.5,51.4,Moderate

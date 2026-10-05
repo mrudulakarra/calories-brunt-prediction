@@ -1,0 +1,64 @@
+category,activity,met,compendium_code,source
+Walking,Walking 2.0–2.4 mph,2.8,17152,2024 Adult Compendium
+Walking,Walking 2.5 mph level,3.0,17170,2024 Adult Compendium
+Walking,Walking 2.8–3.4 mph moderate,3.8,17190,2024 Adult Compendium
+Walking,Walking 3.5–3.9 mph brisk,4.8,17200,2024 Adult Compendium
+Walking,Walking 4.0–4.4 mph very brisk,5.5,17220,2024 Adult Compendium
+Walking,Walking 4.5–4.9 mph very very brisk,7.0,17230,2024 Adult Compendium
+Walking,Walking treadmill 2.5–2.9 mph,3.5,17352,2024 Adult Compendium
+Walking,Walking treadmill 3.0–3.4 mph,3.8,17355,2024 Adult Compendium
+Walking,Walking treadmill 3.5–3.9 mph,4.8,17358,2024 Adult Compendium
+Walking,Walking treadmill 4.0–4.4 mph,5.8,17361,2024 Adult Compendium
+Walking,Stair climbing slow,4.5,17133,2024 Adult Compendium
+Walking,Stair climbing fast,9.3,17134,2024 Adult Compendium
+Running,Jogging general,7.5,12020,2024 Adult Compendium
+Running,Running 4.0–4.2 mph,6.5,12028,2024 Adult Compendium
+Running,Running 4.3–4.8 mph,7.8,12029,2024 Adult Compendium
+Running,Running 5.0–5.2 mph,8.5,12030,2024 Adult Compendium
+Running,Running 5.5–5.8 mph,9.0,12045,2024 Adult Compendium
+Running,Running 6.0–6.3 mph,9.3,12050,2024 Adult Compendium
+Running,Running 6.7 mph,10.5,12060,2024 Adult Compendium
+Running,Running 7 mph,11.0,12070,2024 Adult Compendium
+Running,Running 8 mph,12.0,12090,2024 Adult Compendium
+Running,Running uphill,16.0,12350,2024 Adult Compendium
+Cycling,Bicycling <10 mph leisure,4.0,01010,2024 Adult Compendium
+Cycling,Bicycling general,7.0,01014,2024 Adult Compendium
+Cycling,Bicycling easy pace,4.3,01015,2024 Adult Compendium
+Cycling,Bicycling moderate pace,7.0,01016,2024 Adult Compendium
+Cycling,Bicycling vigorous pace,9.0,01017,2024 Adult Compendium
+Cycling,Bicycling 10–11.9 mph,6.8,01020,2024 Adult Compendium
+Cycling,Bicycling 12–13.9 mph,8.0,01030,2024 Adult Compendium
+Cycling,Bicycling 14–15.9 mph,10.0,01040,2024 Adult Compendium
+Cycling,Stationary bike general,6.8,01200,2024 Adult Compendium
+Cycling,Spin bike class,9.0,01270,2024 Adult Compendium
+Conditioning,Aerobic general,7.3,02000,2024 Adult Compendium
+Conditioning,Step aerobics low step,5.5,02001,2024 Adult Compendium
+Conditioning,Step aerobics high step,9.0,02003,2024 Adult Compendium
+Conditioning,Aerobic dance low impact,4.8,02005,2024 Adult Compendium
+Conditioning,Aerobic dance high impact,8.0,02006,2024 Adult Compendium
+Conditioning,Calisthenics moderate,3.8,02022,2024 Adult Compendium
+Conditioning,Calisthenics vigorous,7.5,02020,2024 Adult Compendium
+Conditioning,Plank / light core work,2.8,02024,2024 Adult Compendium
+Sports,Badminton social,5.5,15030,2024 Adult Compendium
+Sports,Badminton competitive,9.0,15025,2024 Adult Compendium
+Sports,Basketball game,8.0,15040,2024 Adult Compendium
+Sports,Basketball general,7.5,15055,2024 Adult Compendium
+Sports,Basketball shooting,5.0,15070,2024 Adult Compendium
+Sports,Boxing punching bag,5.8,15110,2024 Adult Compendium
+Sports,Boxing punching bag fast,10.8,15118,2024 Adult Compendium
+Sports,Boxing sparring,7.8,15120,2024 Adult Compendium
+Sports,Bowling,3.0,15090,2024 Adult Compendium
+Water,Canoeing light,2.8,18040,2024 Adult Compendium
+Water,Canoeing moderate,5.8,18050,2024 Adult Compendium
+Water,Canoeing competition,12.5,18060,2024 Adult Compendium
+Water,Kayaking moderate,5.0,18100,2024 Adult Compendium
+Water,Kayaking competition,13.5,18104,2024 Adult Compendium
+Daily activity,Sweeping slow/light,2.3,05011,2024 Adult Compendium
+Daily activity,Sweeping fast/moderate,3.8,05012,2024 Adult Compendium
+Daily activity,Mopping moderate,3.5,05021,2024 Adult Compendium
+Daily activity,House cleaning moderate,3.3,05030,2024 Adult Compendium
+Daily activity,Playing with children moderate,3.5,05175,2024 Adult Compendium
+Daily activity,Playing with children vigorous,5.8,05180,2024 Adult Compendium
+Transportation,Bicycling for transportation moderate,6.8,16002,2024 Adult Compendium
+Transportation,Bicycling for transportation high,9.3,16004,2024 Adult Compendium
+Transportation,Walking for transportation,3.5,16060,2024 Adult Compendium
