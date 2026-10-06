@@ -6,6 +6,7 @@ Steps: load -> clean -> EDA -> split -> scale -> train -> evaluate ->
 compare -> choose best -> save.
 """
 import json
+import importlib
 import sys
 from pathlib import Path
 
@@ -88,7 +89,7 @@ def build_models() -> dict:
                                                        max_depth=3, random_state=RANDOM_STATE),
     }
     try:  # XGBoost is optional
-        from xgboost import XGBRegressor
+        XGBRegressor = importlib.import_module("xgboost").XGBRegressor
         models["XGBoost"] = XGBRegressor(n_estimators=400, learning_rate=0.05, max_depth=5,
                                          random_state=RANDOM_STATE)
     except ImportError:

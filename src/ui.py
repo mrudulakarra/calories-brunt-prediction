@@ -27,32 +27,291 @@ def inject_css(theme: str) -> None:
 .stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp label, .stApp p, .stApp li,
 .stApp [data-testid="stMarkdownContainer"], .stApp [data-testid="stWidgetLabel"] p {{ color: var(--text); }}
 .stApp [data-testid="stCaptionContainer"], .stApp small {{ color: var(--muted); }}
-/* inputs */
-div[data-baseweb="input"] > div, div[data-baseweb="base-input"], div[data-baseweb="select"] > div,
-div[data-baseweb="textarea"] {{ background: var(--input) !important; border-color: var(--border) !important; border-radius: 10px !important; }}
-.stApp input, .stApp textarea {{ color: var(--text) !important; -webkit-text-fill-color: var(--text) !important; background: transparent !important; }}
-div[data-baseweb="select"] span, div[data-baseweb="select"] div {{ color: var(--text); }}
-div[data-baseweb="popover"] ul, div[data-baseweb="popover"] li, div[data-baseweb="menu"] {{ background: var(--card) !important; color: var(--text) !important; }}
-[data-testid="stNumberInput"] button {{ background: var(--input) !important; color: var(--text) !important; }}
+/* form containers */
+div[data-testid="stForm"] {{
+  background: var(--card) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 18px !important;
+  padding: 24px !important;
+  box-shadow: var(--shadow) !important;
+}}
+
+/* form labels & widget labels */
+div[data-testid="stWidgetLabel"],
+div[data-testid="stWidgetLabel"] label,
+div[data-testid="stWidgetLabel"] p,
+div[data-testid="stWidgetLabel"] span {{
+  color: var(--text) !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}}
+
+/* inputs & selects container wrappers (both BaseWeb & modern React-Aria) */
+div[data-baseweb="input"] > div,
+div[data-baseweb="base-input"],
+div[data-baseweb="select"] > div,
+div[data-baseweb="textarea"],
+[data-testid="stSelectbox"] [role="combobox"],
+[data-testid="stSelectbox"] div[data-baseweb="select"],
+[data-testid="stMultiSelect"] div[data-baseweb="select"],
+[data-testid="stTextInput"] div[data-baseweb="input"],
+[data-testid="stNumberInput"] div[data-baseweb="input"],
+[data-testid="stDateInput"] div[data-baseweb="input"] {{
+  background-color: var(--input) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 10px !important;
+  color: var(--text) !important;
+}}
+
+/* All text inputs, textareas, selects, comboboxes (e1fp86qc1, react-aria) */
+.stApp input,
+.stApp textarea,
+.stApp select,
+.stApp input[type="text"],
+.stApp input[type="number"],
+.stApp input[role="combobox"],
+.stApp input[data-rac],
+.stApp input.e1fp86qc1,
+.stApp input.st-emotion-cache-zfrvrb,
+.stApp [class*="e1fp86qc"],
+.stApp [data-testid="stSelectbox"] input,
+.stApp [data-testid="stMultiSelect"] input,
+.stApp [data-testid="stTextInput"] input,
+.stApp [data-testid="stNumberInput"] input,
+.stApp [data-testid="stDateInput"] input {{
+  color: var(--text) !important;
+  -webkit-text-fill-color: var(--text) !important;
+  caret-color: #FF5A3C !important;
+  background-color: transparent !important;
+  font-weight: 600 !important;
+  font-size: 0.95rem !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: inline-block !important;
+}}
+
+/* While typing, active, focused */
+.stApp input:focus,
+.stApp input:focus-visible,
+.stApp input[data-focused="true"],
+.stApp input[data-focus-visible="true"],
+.stApp input:active,
+.stApp [data-testid="stSelectbox"] input:focus,
+.stApp [data-testid="stSelectbox"] input[data-focused="true"] {{
+  color: var(--text) !important;
+  -webkit-text-fill-color: var(--text) !important;
+  caret-color: #FF5A3C !important;
+  background-color: transparent !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  outline: none !important;
+}}
+
+/* Input box border focus highlight */
+div[data-baseweb="input"]:focus-within,
+div[data-baseweb="select"]:focus-within,
+[data-testid="stSelectbox"]:focus-within > div,
+[data-testid="stTextInput"]:focus-within > div,
+[data-testid="stNumberInput"]:focus-within > div,
+[data-testid="stDateInput"]:focus-within > div {{
+  border-color: #FF5A3C !important;
+  box-shadow: 0 0 0 2px rgba(255, 90, 60, 0.25) !important;
+}}
+
+.stApp input::placeholder,
+.stApp textarea::placeholder {{
+  color: var(--muted) !important;
+  -webkit-text-fill-color: var(--muted) !important;
+  opacity: 0.75 !important;
+}}
+
+/* Spans and values inside selectboxes and multiselects */
+div[data-baseweb="select"] span,
+div[data-baseweb="select"] div,
+[data-testid="stSelectbox"] span,
+[data-testid="stSelectbox"] div,
+[data-testid="stMultiSelect"] span,
+[data-testid="stMultiSelect"] div {{
+  color: var(--text) !important;
+  -webkit-text-fill-color: var(--text) !important;
+}}
+
+/* Dropdowns, Popovers, and Options */
+div[data-baseweb="popover"],
+div[data-baseweb="popover"] > div,
+div[data-baseweb="popover"] ul,
+div[data-baseweb="menu"],
+[role="listbox"],
+[role="option"],
+div[data-testid="stSelectboxVirtualDropdown"],
+ul[data-testid="stSelectboxVirtualDropdown"],
+div[data-testid="stPopover"],
+div[id^="react-aria"],
+ul[id^="react-aria"] {{
+  background-color: var(--card) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: var(--shadow) !important;
+}}
+
+[role="option"],
+li[role="option"],
+div[data-baseweb="popover"] li,
+ul[data-baseweb="menu"] li,
+div[id^="react-aria"] li,
+div[id^="react-aria"] [role="option"] {{
+  color: var(--text) !important;
+  -webkit-text-fill-color: var(--text) !important;
+  background-color: var(--card) !important;
+  padding: 8px 14px !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  font-weight: 500 !important;
+  font-size: 0.95rem !important;
+}}
+
+[role="option"]:hover,
+[role="option"][aria-selected="true"],
+[role="option"][data-focused="true"],
+[role="option"][data-hovered="true"],
+li[role="option"]:hover,
+li[role="option"][aria-selected="true"],
+div[data-baseweb="popover"] li:hover {{
+  background: rgba(255, 90, 60, 0.18) !important;
+  color: #FF5A3C !important;
+  -webkit-text-fill-color: #FF5A3C !important;
+  font-weight: 700 !important;
+}}
+
+/* Icons inside inputs & dropdowns */
+[data-testid="stSelectbox"] svg,
+[data-testid="stMultiSelect"] svg,
+[data-testid="stDateInput"] svg,
+[data-testid="stNumberInput"] svg,
+div[data-baseweb="select"] svg,
+div[data-baseweb="input"] svg {{
+  fill: var(--text) !important;
+  color: var(--text) !important;
+}}
+
+/* Number input +/- stepper buttons */
+[data-testid="stNumberInput"] button {{
+  background: var(--input) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 6px !important;
+  padding: 2px 8px !important;
+  box-shadow: none !important;
+  transform: none !important;
+}}
+[data-testid="stNumberInput"] button:hover {{
+  background: var(--bg) !important;
+  transform: none !important;
+  box-shadow: none !important;
+}}
+[data-testid="stNumberInput"] button svg {{
+  fill: var(--text) !important;
+}}
+
+/* Multiselect tag pills */
+[data-baseweb="tag"] {{
+  background: var(--bg) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 6px !important;
+}}
+[data-baseweb="tag"] span {{
+  color: var(--text) !important;
+}}
 /* buttons */
-.stApp div.stButton > button, .stApp div.stFormSubmitButton > button, .stApp div.stDownloadButton > button {{
-  background: var(--brand); color: #fff !important; border: 0; border-radius: 12px; font-weight: 600;
-  padding: .55rem 1.3rem; box-shadow: 0 6px 16px rgba(255,61,104,.28); transition: transform .12s ease; }}
-.stApp div.stButton > button:hover, .stApp div.stFormSubmitButton > button:hover,
-.stApp div.stDownloadButton > button:hover {{ transform: translateY(-1px); color: #fff; }}
-.stApp div.stButton > button p, .stApp div.stFormSubmitButton > button p, .stApp div.stDownloadButton > button p {{ color: #fff !important; }}
+.stApp button,
+.stApp div.stButton > button,
+.stApp div.stFormSubmitButton > button,
+.stApp div.stDownloadButton > button,
+button[data-testid="stBaseButton-primary"],
+button[data-testid="stBaseButton-secondary"],
+button[data-testid="baseButton-primary"],
+button[data-testid="baseButton-secondary"] {{
+  background: var(--brand) !important;
+  color: #ffffff !important;
+  border: 0 !important;
+  border-radius: 12px !important;
+  font-weight: 600 !important;
+  padding: .55rem 1.3rem !important;
+  box-shadow: 0 6px 16px rgba(255,61,104,.28) !important;
+  transition: transform .12s ease, box-shadow .12s ease !important;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  position: relative !important;
+  z-index: 1 !important;
+}}
+.stApp button:hover,
+.stApp div.stButton > button:hover,
+.stApp div.stFormSubmitButton > button:hover,
+.stApp div.stDownloadButton > button:hover,
+button[data-testid="stBaseButton-primary"]:hover,
+button[data-testid="stBaseButton-secondary"]:hover {{
+  transform: translateY(-1px) !important;
+  box-shadow: 0 8px 20px rgba(255,61,104,.38) !important;
+  color: #ffffff !important;
+}}
+.stApp button p, .stApp button span, .stApp button div,
+.stApp div.stButton > button p, .stApp div.stFormSubmitButton > button p, .stApp div.stDownloadButton > button p {{
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}}
 /* tabs / expanders / tables */
 .stApp [data-baseweb="tab-list"] {{ gap: 6px; }}
 .stApp [data-baseweb="tab"] p {{ color: var(--text); font-weight: 600; }}
 .stApp [data-testid="stExpander"] {{ background: var(--card); border: 1px solid var(--border); border-radius: 14px; }}
 .stApp [data-testid="stDataFrame"] {{ border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }}
-/* sidebar navigation as pills */
-[data-testid="stSidebar"] [role="radiogroup"] {{ gap: 4px; }}
-[data-testid="stSidebar"] [role="radiogroup"] label {{ padding: 9px 12px; border-radius: 12px; width: 100%; cursor: pointer; }}
-[data-testid="stSidebar"] [role="radiogroup"] label:hover {{ background: var(--bg); }}
-[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked) {{ background: var(--brand); }}
-[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked) p {{ color: #fff !important; font-weight: 700; }}
-[data-testid="stSidebar"] [role="radiogroup"] label > div:first-child {{ display: none; }}
+/* sidebar navigation */
+[data-testid="stSidebar"] [role="radiogroup"] {{ gap: 6px; }}
+[data-testid="stSidebar"] [role="radiogroup"] label {{
+  cursor: pointer !important;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: transparent;
+  border: 1px solid transparent;
+  transition: all 0.15s ease-in-out;
+  display: flex !important;
+  align-items: center;
+  width: 100% !important;
+  position: relative !important;
+  pointer-events: auto !important;
+}}
+[data-testid="stSidebar"] [role="radiogroup"] label:hover {{
+  background: var(--bg);
+  border-color: var(--border);
+}}
+[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked) {{
+  background: var(--brand);
+  border-color: transparent;
+  box-shadow: 0 4px 14px rgba(255,61,104,.28);
+}}
+[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked) [data-testid="stMarkdownContainer"] p,
+[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked) [data-testid="stMarkdownContainer"] span {{
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}}
+[data-testid="stSidebar"] [role="radiogroup"] label [data-testid="stMarkdownContainer"] {{
+  pointer-events: none !important;
+}}
+/* Visually hide the radio circle indicator without breaking click events */
+[data-testid="stSidebar"] [role="radiogroup"] label > div:first-child {{
+  position: absolute !important;
+  opacity: 0 !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  border: 0 !important;
+  pointer-events: none !important;
+}}
 /* custom components */
 .cb-card {{ background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 18px 20px;
   box-shadow: var(--shadow); height: 100%; }}
